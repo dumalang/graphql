@@ -1,0 +1,4 @@
+mutation {
+  deleteContact(
+    id: "60102e95a5f947227806574d")
+}

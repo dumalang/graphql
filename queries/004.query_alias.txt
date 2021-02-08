@@ -1,0 +1,14 @@
+query {
+  one: getOneContact(id: "60102e95a5f947227806574d") {
+    id,
+    firstName,
+    lastName,
+    company
+  }
+  two: getOneContact(id: "60102e95a5f947227806574d") {
+    id,
+    firstName,
+    lastName,
+    company
+  }
+}

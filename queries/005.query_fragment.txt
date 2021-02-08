@@ -1,0 +1,15 @@
+query {
+  one: getOneContact(id: "60102e95a5f947227806574d") {
+    ...contactField
+  }
+  two: getOneContact(id: "60102e95a5f947227806574d") {
+    ...contactField
+  }
+}
+
+fragment contactField on Contact {
+  id,
+  firstName,
+  lastName,
+  company
+}

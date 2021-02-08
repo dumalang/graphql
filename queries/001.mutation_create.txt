@@ -1,0 +1,10 @@
+mutation {
+  createContact(input: {
+    firstName: "jimmy",
+    lastName: "dumalang"
+  }){
+    id,
+    firstName,
+    lastName
+  }
+}

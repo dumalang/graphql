@@ -1,0 +1,8 @@
+query {
+  getContacts {
+    id,
+    firstName,
+    lastName,
+    company
+  }
+}
