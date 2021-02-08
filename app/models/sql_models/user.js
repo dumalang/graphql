@@ -1,10 +1,10 @@
 'use strict'
 
 const mergeObjects = require('lodash.merge')
-const baseModelConfig = require('./static/base_model_config')
+const baseModelConfig = require('../static/base_model_config')
 
 module.exports = (sequelize, DataTypes) => {
-    const idFields = require('./static/ids_fields')(sequelize,
+    const idFields = require('../static/ids_fields')(sequelize,
         DataTypes)
 
     const User = sequelize.define('User', mergeObjects(
